@@ -38,7 +38,7 @@ A atividade identifica chaves primárias (PK), atributos e relacionamentos, incl
 Paciente realiza consulta;
 Dentista atende consulta;
 Consulta inclui procedimento.
-O relacionamento entre consulta e procedimento é apresentado como muitos-para-muitos (N).
+O relacionamento entre consulta e procedimento é apresentado como muitos-para-muitos (N:M).
 Aula 05 — Laboratório prático (Python + SQLite)
 Implementação de um banco de dados para gestão de empréstimos de biblioteca.
 O script:
@@ -127,4 +127,3 @@ modelagem-banco-de-dados/
 Os documentos das atividades e os diagramas podem ser adicionados em pastas próprias, por exemplo, docs/ e diagramas/. O script Python deve ser salvo separadamente caso ainda esteja incorporado ao documento das atividades.
 🎯 Objetivo acadêmico
 Consolidar conhecimentos sobre organização de dados, requisitos, regras de negócio, modelagem conceitual, relacionamentos, chaves primárias e estrangeiras e consultas SQL. A implementação com Python e SQLite demonstra, na prática, a criação e utilização de uma estrutura relacional para controlar empréstimos de livros.
-
